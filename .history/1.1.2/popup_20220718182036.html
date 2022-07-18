@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Address in Google Maps</title>
+    <style>
+      body {
+      min-width: 357px;
+      overflow-x: hidden;
+      }
+   </style>
+
+    <!--
+    - JavaScript and HTML must be in separate files: see our Content Security
+    - Policy documentation[1] for details and explanation.
+    -
+    - [1]: http://developer.chrome.com/extensions/contentSecurityPolicy.html
+    -->
+    <script src="popup.js"></script>
+  </head>
+  <body>
+    <input type='text' id='address1' placeholder="Address 1" size="40">
+    <input type='text' id='address2' placeholder="Address 2" size="40">
+    <button id="map-it">Google Map It</button>
+  </body>
+</html>
+

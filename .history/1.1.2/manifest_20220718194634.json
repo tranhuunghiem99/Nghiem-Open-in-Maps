@@ -1,0 +1,17 @@
+{
+   "background": {
+      "persistent": false,
+      "scripts": [ "eventPage.js" ]
+   },
+   "browser_action": {
+      "default_icon": "icon.png",
+      "default_popup": "popup.html"
+   },
+   "description": "Find Address in ",
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtGGf3pyb50pDWkBnHHJg0gXsvcYy5/YaJu8lBysOIxpKWNFd8oQLB5R8DBgUhIctCmWDb/t8s0UhEN3r8fikPr4TO8SiLWYXuhNhQFAvwWOd/oSsbpwj69iwqoXJ6ch7jwVD7G5zJL6yhCC7YiWJUS9cmkxwjQBSQ1Q+2FGR4BCDlp4UgEk0vJV2OvcaGQ2HVoDGlJ3Is4hq0r2OashsMg89kvbBq8/NEoSTjuhDNyjhclQk5J8ACISvjaj6Bu3XF4jKL+OBj3HCyLHBkwmMbpS67BuP60HoMn4Jb/UN7z3m4+dlhNOhHKVNa4DRpvynvSInbWxwf5jMImZmOUwZsQIDAQAB",
+   "manifest_version": 2,
+   "name": "Nghiem Open in Maps",
+   "permissions": [ "activeTab" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.1.2"
+}

@@ -1,0 +1,13 @@
+{
+    "name": "Nghiem Open in Map",
+    "description": "Find Location in G",
+    "version": "1.0",
+    "browser_action": {
+      "default_icon": "logo.png",
+      "default_popup": "index.html"
+    },
+    "permissions": [
+      "tabs"
+    ],
+    "manifest_version": 2
+  }

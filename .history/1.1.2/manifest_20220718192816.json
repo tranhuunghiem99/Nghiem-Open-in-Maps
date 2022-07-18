@@ -1,0 +1,32 @@
+{
+    "action": {
+        "default_icon": "icon.png",
+        "default_popup": "popup.html"
+    },
+    "icons": {
+        "128": "icon.png"
+      },
+    "permissions": [
+        "tabs"
+    ],
+    "manifest_version": 3,
+    "name": "Nghiem Open in Map",
+    "description": "Find Location in Google Map",
+    "version": "1.1.2"
+}
+{
+    "description": "description here",
+    "icons": {
+      "128": "img/icon_128.png",
+      "16": "img/icon_16.png"
+    },
+    "manifest_version": 3,
+    "name": "Title here",
+    "version": "1.0.1",
+    "action": {
+      "default_icon": "img/icon_active.png",
+      "default_popup": "html/popup.html",
+      "default_title": "Title here"
+    },
+    "content_security_policy": {}
+  }
